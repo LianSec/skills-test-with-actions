@@ -27,5 +27,5 @@ jobs:
 
       - name: Run markdown lint
         run: |
-          npm install remark-cli remark-preset-lint
-          npx remark . --use remark-preset-lint --frail
+          npm install remark-cli remark-preset-lint-consistant
+          npx remark . --use remark-preset-lint-consistant --frail
